@@ -119,6 +119,63 @@
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
+    /* Focus center or current cursor position */
+    {
+      "before": [
+        "n",
+      ],
+      "after": [
+        "n",
+        "z",
+        "z",
+        "z",
+        "v"
+      ]
+    },
+    {
+      "before": [
+        "N",
+      ],
+      "after": [
+        "N",
+        "z",
+        "z",
+        "z",
+        "v"
+      ]
+    },
+    {
+      "before": [
+        "J",
+      ],
+      "after": [
+        "m",
+        "z",
+        "J",
+        "`",
+        "z"
+      ]
+    },
+    {
+      "before": [
+        "j",
+      ],
+      "after": [
+        "j",
+        "z",
+        "z"
+      ]
+    },
+    {
+      "before": [
+        "k",
+      ],
+      "after": [
+        "k",
+        "z",
+        "z"
+      ]
+    },
     {
       "before": [
         "<leader>",
@@ -320,7 +377,9 @@
     "<C-i>": true,
     "<C-o>": true,
     "<C-r>": true,
-    "<C-b>": true
+    "<C-b>": true,
+    "<C-]>": true,
+    "<C-t>": true
   },
   /* vim settings end */
   /* which key bindings */
