@@ -1,0 +1,390 @@
+{
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.acceptSuggestionOnEnter": "off",
+  "files.insertFinalNewline": true,
+  "editor.fontSize": 14,
+  "editor.fontWeight": "100",
+  "window.openFilesInNewWindow": "off",
+  "editor.scrollBeyondLastLine": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnPaste": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "bottom",
+  "editor.letterSpacing": 0.5,
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning"
+  ],
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "javascript": true,
+    "c": true,
+    "cpp": true,
+    "go": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true
+  },
+  "terminal.integrated.fontSize": 10,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.formatOnSave": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "git.autofetch": true,
+  "tabnine.experimentalAutoImports": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.formatOnType": true,
+  "files.trimFinalNewlines": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "editor.linkedEditing": true,
+  "editor.tabSize": 2,
+  "[vue]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "editor.wordWrap": "on",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.list.openMode": "doubleClick",
+  "editor.suggest.preview": true,
+  "editor.minimap.enabled": false,
+  "html.format.wrapAttributes": "force-expand-multiline",
+  "html.format.wrapLineLength": 80,
+  "editor.lineNumbers": "relative",
+  "javascript.format.semicolons": "remove",
+  "workbench.colorTheme": "Catppuccin Noctis",
+  "git.confirmSync": false,
+  "blade.format.enable": true,
+  "bladeFormatter.format.indentSize": 2,
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.rulers": [
+    80
+  ],
+  "window.zoomLevel": -1,
+  // Configure settings to be ignored while synchronizing.
+  "settingsSync.ignoredSettings": [
+    "editor.fontFamily"
+  ],
+  /* vim settings start */
+  "vim.foldfix": true,
+  "vim.camelCaseMotion.enable": true,
+  "vim.easymotion": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": false,
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.surround": true,
+  "vim.vimrc.enable": false,
+  "vim.vimrc.path": "",
+  "vim.leader": ";",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    { // which key
+      "before": [
+        "<space>"
+      ],
+      "commands": [
+        "whichkey.show"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "u"
+      ],
+      "commands": [
+        "editor.action.referenceSearch.trigger"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "U"
+      ],
+      "commands": [
+        "references-view.findReferences"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "i",
+        "n"
+      ],
+      "commands": [
+        "references-view.showCallHierarchy"
+      ]
+    },
+    // -- debug
+    {
+      "before": [
+        "<leader>",
+        "d",
+        "b"
+      ],
+      "commands": [
+        "editor.debug.action.toggleBreakpoint"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "d",
+        "c"
+      ],
+      "commands": [
+        "editor.debug.action.conditionalBreakpoint"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "d",
+        "r"
+      ],
+      "commands": [
+        "workbench.action.files.save",
+        "workbench.action.debug.start"
+      ]
+    },
+    // -- problem nav
+    {
+      "before": [
+        "<leader>",
+        "d",
+        "k"
+      ],
+      "commands": [
+        "editor.action.marker.prev"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "d",
+        "j"
+      ],
+      "commands": [
+        "editor.action.marker.next"
+      ]
+    },
+    // -- git hunk nav
+    {
+      "before": [
+        "<leader>",
+        "h",
+        "k"
+      ],
+      "commands": [
+        "workbench.action.editor.previousChange",
+        "editor.action.dirtydiff.previous"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "h",
+        "j"
+      ],
+      "commands": [
+        "workbench.action.editor.nextChange",
+        "editor.action.dirtydiff.next"
+      ]
+    },
+    // -- rename symbol
+    {
+      "before": [
+        "<leader>",
+        "r",
+        "n"
+      ],
+      "commands": [
+        "editor.action.rename",
+      ]
+    },
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    { // which key
+      "before": [
+        "<space>"
+      ],
+      "commands": [
+        "whichkey.show"
+      ]
+    },
+    // repeatly indent in visual mode
+    {
+      "before": [
+        ">"
+      ],
+      "commands": [
+        "editor.action.indentLines"
+      ]
+    },
+    {
+      "before": [
+        "<"
+      ],
+      "commands": [
+        "editor.action.outdentLines"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "f"
+      ],
+      "commands": [
+        "editor.action.formatSelection"
+      ]
+    },
+    { // p action will not override clipboard content
+      "before": [
+        "p"
+      ],
+      "after": [
+        "p",
+        "g",
+        "v",
+        "y",
+      ]
+    },
+  ],
+  "vim.operatorPendingModeKeyBindings": [
+    {
+      "before": [
+        "L"
+      ],
+      "after": [
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-c>": false,
+    "<C-s>": false,
+    "<C-v>": true,
+    "<C-w>": true,
+    "<C-i>": true,
+    "<C-o>": true,
+    "<C-r>": true,
+    "<C-b>": true
+  },
+  /* vim settings end */
+  /* which key bindings */
+  "whichkey.bindings": [
+    {
+      "key": "e",
+      "name": "Show tree/explorer view",
+      "type": "conditional",
+      "bindings": [
+        {
+          "key": "",
+          "name": "default",
+          "type": "command",
+          "command": "workbench.view.explorer"
+        },
+        {
+          "key": "when:sideBarVisible && explorerViewletVisible",
+          "name": "Hide explorer",
+          "type": "command",
+          "command": "workbench.action.toggleSidebarVisibility"
+        }
+      ],
+    },
+    {
+      "key": "g",
+      "name": "Source contrl",
+      "type": "command",
+      "command": "workbench.view.scm",
+    },
+    {
+      "command": "workbench.action.quickOpen",
+      "key": "f",
+      "name": "Find file",
+      "type": "command"
+    },
+    {
+      "command": "workbench.view.search",
+      "key": "w",
+      "name": "Search Word",
+      "type": "command"
+    },
+    {
+      "command": "search.action.openEditor",
+      "key": "F",
+      "name": "New Search Editor",
+      "type": "command"
+    },
+    {
+      "command": "workbench.action.gotoSymbol",
+      "key": "s",
+      "name": "Search document symbol",
+      "type": "command"
+    },
+    {
+      "command": "workbench.action.showAllSymbols",
+      "key": "S",
+      "name": "Search project symbol",
+      "type": "command"
+    }
+  ],
+  "workbench.panel.defaultLocation": "right",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "debug.showBreakpointsInOverviewRuler": true,
+  "workbench.sideBar.location": "right"
+}
