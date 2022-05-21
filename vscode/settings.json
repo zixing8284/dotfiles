@@ -28,7 +28,7 @@
     "plaintext": false,
     "markdown": true
   },
-  "terminal.integrated.fontSize": 10,
+  "terminal.integrated.fontSize": 12,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
@@ -71,7 +71,6 @@
   "editor.rulers": [
     80
   ],
-  "window.zoomLevel": -1,
   // Configure settings to be ignored while synchronizing.
   "settingsSync.ignoredSettings": [
     "editor.fontFamily"
@@ -445,5 +444,6 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "debug.showBreakpointsInOverviewRuler": true,
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "window.zoomLevel": -2
 }
