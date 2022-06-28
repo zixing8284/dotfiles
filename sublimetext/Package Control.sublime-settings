@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"Emmet",
+		"FileIcons Mono",
+		"HTML-CSS-JS Prettify",
+		"Notepad++ Color Scheme",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements",
+		"Sync Settings",
+		"Terminus",
+		"Vue Syntax Highlight",
+		"Vuejs Snippets",
+		"WakaTime",
+	],
+	"in_process_packages":
+	[
+	],
+}

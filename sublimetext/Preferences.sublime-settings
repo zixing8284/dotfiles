@@ -1,0 +1,12 @@
+{
+	"theme": "Adaptive.sublime-theme",
+	"ignored_packages":
+	[
+	],
+	"tab_size": 2,
+	"font_size": 9,
+	"font_face": "Fira Code",
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"color_scheme": "Packages/Notepad++ Color Scheme/Default Stylers.tmTheme",
+}
