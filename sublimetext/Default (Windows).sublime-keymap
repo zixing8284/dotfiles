@@ -1,6 +1,6 @@
 [
 	{ "keys": ["down"], "command": "move", "args": {"by": "lines", "forward": true} },
-	{ "keys": ["ctrl+j"], "command": "move", "args": {"by": "lines", "forward": true} }
+	{ "keys": ["ctrl+j"], "command": "move", "args": {"by": "lines", "forward": true} },
 	{ "keys": ["up"], "command": "move", "args": {"by": "lines", "forward": false} },
 	{ "keys": ["ctrl+k"], "command": "move", "args": {"by": "lines", "forward": false} }
 ]
