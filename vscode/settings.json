@@ -5,7 +5,7 @@
   "editor.acceptSuggestionOnEnter": "off",
   "files.insertFinalNewline": true,
   "editor.fontSize": 14,
-  "editor.fontWeight": "100",
+  "editor.fontWeight": "500",
   "window.openFilesInNewWindow": "off",
   "editor.scrollBeyondLastLine": true,
   "files.trimTrailingWhitespace": true,
@@ -20,15 +20,15 @@
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
     "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": true,
     "javascript": true,
     "c": true,
     "cpp": true,
-    "go": true,
-    "yaml": false,
-    "plaintext": false,
-    "markdown": true
+    "go": true
   },
-  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontSize": 13,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
@@ -43,13 +43,13 @@
   "editor.formatOnType": true,
   "files.trimFinalNewlines": true,
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
   "workbench.iconTheme": "vscode-icons",
   "editor.linkedEditing": true,
   "editor.tabSize": 2,
   "[vue]": {
-    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    "editor.defaultFormatter": "octref.vetur"
   },
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
@@ -59,11 +59,10 @@
   "workbench.list.openMode": "doubleClick",
   "editor.suggest.preview": true,
   "editor.minimap.enabled": false,
-  "html.format.wrapAttributes": "force-expand-multiline",
+  "html.format.wrapAttributes": "preserve",
   "html.format.wrapLineLength": 80,
   "editor.lineNumbers": "relative",
   "javascript.format.semicolons": "remove",
-  "workbench.colorTheme": "Catppuccin Noctis",
   "git.confirmSync": false,
   "blade.format.enable": true,
   "bladeFormatter.format.indentSize": 2,
@@ -71,6 +70,7 @@
   "editor.rulers": [
     80
   ],
+  "window.zoomLevel": -1,
   // Configure settings to be ignored while synchronizing.
   "settingsSync.ignoredSettings": [
     "editor.fontFamily"
@@ -86,7 +86,7 @@
   "vim.surround": true,
   "vim.vimrc.enable": false,
   "vim.vimrc.path": "",
-  "vim.leader": ";",
+  "vim.leader": ",",
   "vim.insertModeKeyBindings": [
     {
       "before": [
@@ -445,5 +445,10 @@
   },
   "debug.showBreakpointsInOverviewRuler": true,
   "workbench.sideBar.location": "right",
-  "window.zoomLevel": -2
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "workbench.colorTheme": "Visual Studio Dark",
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "vetur.format.defaultFormatter.html": "js-beautify-html"
 }
